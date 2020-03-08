@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^country/([^/]*)$ /country.php?country=$1 [L]
+RewriteRule ^series/([^/]*)$ /country_series.php?country=$1 [L]
